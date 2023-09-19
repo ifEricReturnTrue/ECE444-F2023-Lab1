@@ -2,3 +2,5 @@
 this repo is a clone of https://github.com/miguelgrinberg/flasky.   
 Activity 1 ScreenShot:   
 ![alt text](activity1.png "Activity 1 ScreenShot")
+Activity 2 ScreenShot:
+![alt text](activity2_1 "Activity 2 ScreenShot 1")
