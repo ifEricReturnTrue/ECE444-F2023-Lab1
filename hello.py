@@ -3,13 +3,12 @@ from flask_bootstrap import Bootstrap
 from flask_moment import Moment 
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, EmailField
-from wtforms.validators import DataRequired, Email
+from wtforms.validators import DataRequired
 from datetime import datetime
-
-
+            
 class NameForm(FlaskForm):
-    name = StringField('What is your name?', validators=[DataRequired()]) 
-    email = EmailField('What is your UofT Email address?', validators=[Email()]) 
+    name = StringField('What is your name?', validators=[DataRequired()])
+    email = EmailField('What is your UofT email address?', validators=[DataRequired()])
     submit = SubmitField('Submit')
 
 app = Flask(__name__)
